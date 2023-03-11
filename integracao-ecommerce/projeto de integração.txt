@@ -1,4 +1,4 @@
- Para integrar os dados do e-commerce à nossa plataforma, eu usaria uma 
+Para integrar os dados do e-commerce à nossa plataforma, eu usaria uma 
  arquitetura seguindo esses passos:
  
  1. Coleta de dados: Para extrair os dados necessários para a integração, 
@@ -40,4 +40,4 @@
  e-commerce, como desempenho de vendas, perfil dos clientes e desempenho do 
  estoque. Além disso, a escalabilidade dos serviços da AWS permite que o 
  sistema cresça sem interrupções, e a integração personalizada com a plataforma 
- permitirá o acesse aos dados de maneira fácil e ágil.
+ permitirá o acesso aos dados de maneira fácil e ágil.
