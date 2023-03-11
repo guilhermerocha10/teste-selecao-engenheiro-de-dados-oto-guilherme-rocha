@@ -48,14 +48,14 @@ def process_chunk(chunk: pd.DataFrame) -> pd.DataFrame:
 def process_christmas_data(input_path: str, output_path: str, chunk_size: int) -> None:
     """Processa o arquivo de dados de Natal."""
 
+    if not os.path.exists(input_path):
+        print('Arquivo de entrada não foi encontrado, finalizando processo.')
+        return
+
     encoding = get_enconding(input_path)
     print(f'O arquivo de entrada possui enconding: {encoding}')
     
     remove_file_if_exists(output_path)
-
-    if not os.path.exists(input_path):
-        print('Arquivo de entrada não foi encontrado, finalizando processo.')
-        return
 
     print(f'Processando arquivo "{input_path}" a cada {chunk_size} instâncias...')
     # Lendo o arquivo CSV em pedaços(chunks) de 1000 linhas
