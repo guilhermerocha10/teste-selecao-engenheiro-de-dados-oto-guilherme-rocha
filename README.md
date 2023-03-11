@@ -1,5 +1,5 @@
 # Teste técnico para o processo seletivo Oto.
-###### As respostas para cada questão pode ser encontradas nos seguints arquivos arquivos:
+###### A resposta para cada questão pode ser encontrada nos seguintes arquivos:
 * calculo-de-rfv.sql
 * campanha-de-natal.py
 * integração e-commerce.txt
